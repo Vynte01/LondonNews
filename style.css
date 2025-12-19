@@ -1,0 +1,810 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+.old-standard-tt-regular {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+ .bg-menu {
+        background-color: #948366;
+         font-family: "Old Standard TT", serif;
+         
+    }
+.boxSlideshow{
+    width: auto;
+    height: 400px;
+    background-color: #459995;
+}
+ .imgSlideshow {
+        width: auto;
+    }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    .bg-menu {
+        margin-left: 24%;
+        margin-right: 34%;
+
+        
+         font-family: "Old Standard TT", serif;
+          text-align: center;
+          font-weight: 700;
+          font-size: 15pt;
+          /* จัดรูปแบบตัวอักษร */
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
+    padding: 0; /* ลบค่ายัดไส้ (padding) ของลิงก์ Bootstrap ออก */
+    transition: color 0.3s;
+    display: block;
+    }
+
+      .row {
+        width: 100%;
+        padding: 10px;
+    }
+   
+    /* CSS Styles */
+
+/* ฟ้อน */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap');
+
+/* Public Sans: CSS class for a variable style */
+
+/* ตัวอย่าง: คลาสสำหรับฟอนต์น้ำหนัก 700 (ตัวหนา) */
+.public-sans-bold {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* 🌟 กำหนดน้ำหนักที่ 700 (ตัวหนา) */
+    font-style: normal;
+}
+
+/* ตัวอย่าง: คลาสสำหรับฟอนต์น้ำหนัก 400 (ปกติ) */
+.public-sans-regular {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* 🌟 กำหนดน้ำหนักที่ 400 (ปกติ) */
+    font-style: normal;
+}
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.old-standard-tt-regular {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.old-standard-tt-bold {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.old-standard-tt-regular-italic {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+body {
+    font-family: Georgia, serif; 
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.dark-bg {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    color: #f7f7f7;
+    /* ในภาพต้นฉบับ Sidebar มีสีพื้นหลังที่เข้มกว่าพื้นหลังเว็บทั้งหมด */
+    /* เราจึงให้ dark-bg มี padding ในตัวมันเองเพื่อให้พื้นที่ดูเต็ม */
+    padding: 20px; 
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---------------------------------- Header ---------------------------------- */
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    background-color: #459995;
+    
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    text-transform: uppercase;
+   
+   
+}
+
+header.main-header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #1C1914;
+}
+
+header.main-header h1 {
+    font-family: "Pirata One", system-ui;
+    font-size: 3em;
+    color: #925F35;
+    letter-spacing: 5px;
+    margin: 0;
+    text-transform: uppercase;
+   
+}
+.container-fluid {
+    align-content: center;
+}
+
+/* ------------------------------- Main Content (GRID) ------------------------------- */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* คอลัมน์ซ้าย (Main Articles) : คอลัมน์ขวา (Sidebar) */
+    gap: 40px;
+    padding: 40px 0;
+    background-color: #a00000;
+}
+
+/* ------------------------------ Featured Article ----------------------------- */
+
+.featured-article {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+   
+}
+
+.featured-image-container {
+    position: relative;
+    width: 100%;
+    margin-left: 0pt;
+}
+
+.featured-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #a00000;
+}
+
+.featured-text-overlay {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.meta-info {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+.meta-info span {
+   padding: 0 10px;
+   border-right: 1px solid #ccc;
+        }
+
+
+.featured-text-overlay h2 {
+    /* 1. เตรียมพื้นที่สำหรับเส้นขีด */
+    position: relative; /* สำคัญ: กำหนดให้ h2 เป็นจุดอ้างอิงสำหรับเส้นขีด */
+    padding-left: 20px; /* เว้นระยะห่างด้านซ้ายสำหรับเส้นขีด */
+    margin: 0;
+    font-size: 1.5em;
+    margin-left: 10pt;
+    font-size: 3.8em;
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+}
+/* 2. สร้างเส้นขีดด้วย Pseudo-element */
+.featured-text-overlay h2::before {
+    content: ""; /* ต้องมี content: "" */
+    position: absolute;
+    top: 0;
+    left: 0; /* ให้อยู่ชิดซ้ายของ h2 */
+    
+    /* 3. กำหนดขนาดและสีของเส้นขีด */
+    width: 20px; /* ความกว้างของเส้นขีด */
+    height: 100%; /* ความสูงของเส้นขีด (เต็มความสูงของ h2) */
+    background-color: #925F35; /* สีน้ำตาลเข้ม (คุณสามารถปรับเป็นโค้ดสีอื่นได้) */
+}
+
+.article-content {
+    padding: 60px;
+     font-family: "Public Sans", sans-serif;
+background-color: #459995;
+   width: 100%;
+   font-size: 18pt;
+ 
+}
+
+.read-more-btn1 {
+    display: inline-block;
+    background-color: #613714; 
+    color: #fff;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+      font-family: "Public Sans", sans-serif;
+     
+}
+
+.read-more-btn1:hover {
+    background-color: #a0522d;
+}
+
+/* ------------------------------ Sidebar Articles ------------------------------ */
+
+.sidebar-article {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start; /* จัดให้อ้างอิงจากด้านบน */
+    border-bottom: 3px solid #333; 
+    margin-top: 20pt;
+    
+    
+}
+
+.sidebar-article:last-child {
+    border-bottom: none;
+}
+
+.sidebar-article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    background-color: #925F35;
+    
+}
+.col-12{
+    margin-bottom: 20pt;
+}
+
+
+.sidebar-article h4 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-decoration: underline;
+    display: flex;
+    margin-left: 20pt;
+}
+.sidebar-articles h1{
+   font-family: "Old Standard TT", serif;
+   font-weight: 800;
+}
+.sidebar-articles p{
+  text-align: right;
+   font-size: 20pt;
+   color: #a09e9e;
+} 
+
+/* ------------------------------ Category Section (Sport) ------------------------------ */
+
+:root {
+            --primary-brown: #7D491F; /* สีน้ำตาลสำหรับปุ่มและหัวข้อ */
+            --accent-blue: #1C1914;   /* สีตรงหัวข้อ SPORT */
+            --text-gray: #555;
+            --border-color: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #fff;
+            padding: 40px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* --- SECTION HEADER (SPORT) --- */
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .blue-bar {
+            width: 10px;
+            height: 40px;
+            background-color: var(--accent-blue);
+            margin-right: 15px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary-brown);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* --- NEWS ITEM CARD --- */
+        .news-item {
+            display: flex;
+            gap: 30px;
+            padding: 30px 0;
+            border-bottom: 2px solid #1C1914; /* เส้นขีดคั่น */
+        }
+
+        /* เอาเส้นขีดล่างออกสำหรับอันสุดท้าย ถ้าต้องการ */
+        .news-item:last-child {
+            border-bottom: none; 
+        }
+
+        /* IMAGE STYLES */
+        .image-wrapper {
+            flex: 0 0 280px; /* ความกว้างคงที่ของรูป */
+            height: 280px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%); /* ปรับเป็นขาวดำ */
+            transition: filter 0.3s ease;
+        }
+        
+        .image-wrapper img:hover {
+            filter: grayscale(0%); /* คืนสีเมื่อเอาเมาส์ชี้ */
+        }
+
+        /* CONTENT STYLES */
+        .content-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .article-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .brown-bar-small {
+            width: 6px;
+            height: 24px;
+            background-color: var(--primary-brown);
+            margin-right: 12px;
+            margin-top: 5px; /* จัดกึ่งกลางกับบรรทัดแรก */
+            flex-shrink: 0;
+        }
+
+        .article-title {
+            font-size: 1.5rem;
+            color: var(--primary-brown);
+            line-height: 1.2;
+            font-family: "Old Standard TT", serif;
+            font-weight: 800;
+        }
+
+        .article-excerpt {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: var(--text-gray);
+            text-align: center; /* จัดกลางตามภาพ */
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+
+        .article-footer {
+            display: flex;
+            justify-content: space-between; /* วันที่ซ้าย ปุ่มขวา */
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: #777;
+            text-transform: uppercase;
+        }
+
+        .read-more-btn {
+            background-color: #5c3d2e; /* สีน้ำตาลเข้ม */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Lato', sans-serif;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .read-more-btn i {
+            font-size: 0.8rem;
+        }
+
+        .read-more-btn:hover {
+            background-color: #4a2f22;
+        }
+
+       
+.pagination {
+   text-align: center;
+   margin-left: 45%;
+    margin-top: 30px; 
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* --------------------------------- Banner Ad -------------------------------- */
+
+.banner-ad {
+    text-align: center; 
+    padding: 40px 0; 
+    background-color: #f7f7f7;
+}
+
+.banner-ad .ad-image {
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* --------------------------------- Most Read -------------------------------- */
+
+.most-read-container {
+            max-width: 600px; /* กำหนดความกว้างไม่ให้กว้างเกินไป */
+            margin: 0 auto;
+        }
+
+        /* --- HEADER --- */
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .black-bar {
+            width: 12px;
+            height: 35px;
+            background-color: #000;
+            margin-right: 15px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--primary-brown);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+
+        /* --- LIST ITEMS --- */
+        .most-read-list {
+            display: flex;
+            flex-direction: column;
+            gap: 40px; /* ระยะห่างระหว่างแต่ละข่าว */
+        }
+
+        .read-item {
+            display: flex;
+            align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+            gap: 40px; /* ระยะห่างระหว่างตัวเลขกับข้อความ */
+        }
+
+        .rank-number {
+            font-size: 4rem;
+            font-weight: 700;
+            color: var(--primary-brown);
+            width: 50px; /* กำหนดความกว้างเพื่อให้ตัวเลขตรงกันแนวตั้ง */
+            text-align: center;
+            line-height: 1;
+            flex-shrink: 0; /* ไม่ให้ตัวเลขโดนบีบ */
+        }
+
+        .news-title {
+            font-size: 1.1rem;
+            color: var(--primary-brown);
+            line-height: 1.4;
+            font-weight: 700;
+        }
+/* --- FOOTER SECTION --- */
+        footer {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            padding: 60px 20px 30px; /* ด้านบนเว้นเยอะหน่อย */
+        }
+
+        .footer-content {
+            max-width: auto;
+            margin: 0 auto;
+            text-align: left;
+            background-color: #0E0E0E;
+        }
+
+        /* --- LOGO --- */
+        .footer-logo {
+           font-family: "Pirata One", system-ui;
+           font-weight: 100;
+            font-size: 3.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 50px;
+            letter-spacing: 2px;
+            color: #925F35;
+        }
+
+        /* --- LINKS --- */
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 30px; /* ระยะห่างระหว่างลิงก์ตามรูป */
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: var(--accent-gold);
+            font-family: "Pirata One", system-ui;
+            font-size: 1.2rem;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+            color: #F9D6B9;
+        }
+
+        .footer-links a:hover {
+            color: #fff;
+        }
+
+        /* --- SEPARATOR --- */
+        .footer-separator {
+            border: none;
+            border-top: 1.5px solid #68656D; /* เส้นคั่นบางๆ */
+            width: 80%;
+            margin: 60px auto 40px;
+        }
+
+        /* --- COPYRIGHT --- */
+        .footer-copyright {
+            font-size: 0.8rem;
+            line-height: 1.6;
+            color: var(--light-text);
+            padding: 0 50px;
+            color: #F9D6B9;
+            text-align: center;
+        }
+
+        .footer-copyright strong {
+            color: #F9D6B9; /* เน้นข้อความให้เด่นขึ้น */
+        }
+
+    }
+/* ==================== PODCAST PAGE STYLES ==================== */
+
+/* หัวข้อหน้าแบบมีขีดข้างหน้า */
+.podcast-header-title h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    border-left: 5px solid #694936; /* ขีดสีน้ำตาล */
+    padding-left: 15px;
+    margin-bottom: 10px;
+    color: #694936;
+}
+
+/* Hero Section (พื้นหลังดำไล่สี) */
+.podcast-hero {
+    background: linear-gradient(90deg, #111 0%, #3e2b1f 100%);
+    color: white;
+    padding: 50px 0;
+}
+
+.hero-layout {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-img img {
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.gold-text, .gold-header {
+    color: #c5a065; /* สีทองตามภาพ */
+    font-family: Georgia, serif;
+}
+
+.hero-info h2 { font-size: 2.5em; margin-top: 0; }
+.hero-info p { line-height: 1.6; color: #ddd; }
+
+.hero-btns button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.btn-play { background-color: #8b5a2b; color: white; }
+.btn-save { background-color: transparent; border: 1px solid #8b5a2b; color: #c5a065; }
+
+/* Recommended Grid */
+.section-gap { padding: 40px 0; }
+.section-head-flex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid-card img { width: 100%; height: auto; }
+.category-tag { font-size: 0.8em; color: #888; text-transform: uppercase; display: block; margin-top: 10px; }
+.meta { font-size: 0.8em; color: #555; }
+
+/* Video Section (Dark) */
+.dark-section { background-color: #1a1a1a; color: #ddd; }
+.center-text { text-align: center; }
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+.video-cover { position: relative; }
+.video-cover img { width: 100%; display: block; }
+.play-overlay {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em; color: white;
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%; width: 60px; height: 60px;
+    text-align: center; line-height: 60px;
+}
+
+.side-item {
+    display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px;
+}
+.side-item img { width: 100px; object-fit: cover; }
+
+/* Live Timeline (เส้นไทม์ไลน์) */
+.live-section {
+    border-left: 2px solid #ccc;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.live-title {
+    color: #a00; /* แดง */
+    text-transform: uppercase;
+    position: relative;
+    left: -42px; /* ดึงหัวข้ออกมาให้ตรงเส้น */
+    background: #f7f7f7; /* สีพื้นหลังเดียวกับ body เพื่อบังเส้น */
+    display: inline-block;
+    padding: 5px;
+}
+.badge-live { color: #a00; font-weight: bold; display: block; margin-bottom: 5px; }
+
+.timeline-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: relative;
+}
+/* จุดกลมๆ หน้า Timeline */
+.timeline-row::before {
+    content: "";
+    position: absolute;
+    left: -36px;
+    top: 5px;
+    width: 10px; height: 10px;
+    background: #a00;
+    border-radius: 50%;
+}
+
+.timeline-content { flex: 1; padding-right: 20px; }
+.btn-watch {
+    background: #694936; color: white;
+    border: none; padding: 5px 15px;
+    cursor: pointer; margin-top: 10px;
+}
+.timeline-img img { width: 200px; height: auto; }
+
+/* Responsive มือถือ */
+@media (max-width: 768px) {
+    .hero-layout, .grid-3, .video-grid, .timeline-row {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        display: flex;
+    }
+    .timeline-img { order: -1; margin-bottom: 10px; } /* เอารูปขึ้นก่อนในมือถือ */
+}
+
