@@ -667,6 +667,7 @@ background-color: #459995;
     }
 /* ==================== PODCAST PAGE STYLES ==================== */
 
+
 /* หัวข้อหน้าแบบมีขีดข้างหน้า */
 .podcast-header-title h2 {
     font-size: 2em;
@@ -808,3 +809,87 @@ background-color: #459995;
     .timeline-img { order: -1; margin-bottom: 10px; } /* เอารูปขึ้นก่อนในมือถือ */
 }
 
+/* ================= NEWS PAGE STYLES ================= */
+
+/* หัวข้อใหญ่กลางหน้า */
+.news-page-title {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 3em;
+    letter-spacing: 5px;
+    margin: 40px 0;
+    color: #694936; /* สีน้ำตาล */
+    text-transform: uppercase;
+}
+
+/* แถวของแต่ละหมวดหมู่ */
+.category-row {
+    margin-bottom: 50px;
+}
+
+/* หัวข้อหมวดหมู่ (มีขีดดำข้างหน้า) */
+.cat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.cat-title {
+    border-left: 5px solid #000;
+    padding-left: 15px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.view-all {
+    font-size: 0.9em;
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ตาราง 3 คอลัมน์สำหรับข่าว */
+.article-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* การ์ดข่าว */
+.news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    filter: grayscale(100%); /* ทำให้รูปเป็นขาวดำตามดีไซน์ */
+    transition: filter 0.3s;
+}
+
+.news-card:hover img {
+    filter: grayscale(0%); /* เอาเมาส์ชี้แล้วเป็นสี */
+}
+
+.news-meta {
+    font-size: 0.75em;
+    color: #999;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.news-card h4 {
+    font-size: 1.1em;
+    margin: 0;
+    line-height: 1.4;
+    font-family: Georgia, serif;
+}
+
+/* Responsive มือถือ */
+@media (max-width: 768px) {
+    .article-grid-3 {
+        grid-template-columns: 1fr; /* เรียงแถวเดียวในมือถือ */
+    }
+}
